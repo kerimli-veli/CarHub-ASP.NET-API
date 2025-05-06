@@ -36,4 +36,16 @@
 - Automatic rental duration calculation
 
 ## 🗂️ Project Structure
+CarHub.API/
+│
+├── Controllers/         → API endpoints
+├── DTOs/                → Data Transfer Objects
+├── Entities/            → Database models
+├── Interfaces/          → Abstraction layer (repositories, services)
+├── Repositories/        → Data access layer
+├── Services/            → Business logic layer
+├── Helpers/             → Utilities (e.g. JWT token, photo services)
+├── Middlewares/         → Exception handling, logging, etc.
+└── Program.cs / Startup.cs → Application configuration
+
 
