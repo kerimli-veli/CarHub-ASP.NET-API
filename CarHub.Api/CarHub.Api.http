@@ -1,0 +1,6 @@
+@CarHub.Api_HostAddress = http://localhost:5226
+
+GET {{CarHub.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
